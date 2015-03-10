@@ -205,6 +205,28 @@ containers.
 
 ---
 
+# ROADMAP AND CURRENT STATUS OF PAZ
+
+* I presented Paz at Container Camp in September 2014
+* I'd planned to polish it up and release it by the end
+  of 2014 but I didn't
+  * I suffered from burnout and took a break
+* So two weeks ago on stage at LNUG I open-sourced it as-is
+* Since then I've been improving the documentation and bug-
+  fixing
+  * This has meant removing some half-finished features
+  * Such as "environments", sadly (but it will be back)
+* Installation process & documentation badly needed
+  improvement
+
+There are still some rough edges that will be smoothed
+out over the coming weeks and months.
+
+Paz is now becoming more polished and is better able to
+showcase the great technology under the hood.
+
+-----
+
 # HOW DOES PAZ USE COREOS, ETCD AND FLEET?
 
 * Paz supports webhooks from the Docker hub, enabling
@@ -215,6 +237,20 @@ containers.
   to write unit files for you and look after started
   services, Paz is your answer
 * Paz can also do some basic DNS configuration for you
+
+-----
+
+# ROADMAP AND CURRENT STATUS OF PAZ
+
+This is our short-to-medium term roadmap:
+
+* CLI
+* An out-of-the box monitoring solution (probably Heapster)
+* Centralised logging
+* Something like Kubernetes' Replication Controller
+* Deployment history/logs in the UI
+* Replace and/or simplify HAProxy/Etcd/Confd service discovery
+* Proper test runner/framework (maybe Gulp)
 
 ---
 
@@ -248,28 +284,6 @@ Also:
   Paz documentation portal
 
 ---
-
-# ROADMAP AND CURRENT STATUS OF PAZ
-
-* I presented Paz at Container Camp in September 2014
-* I'd planned to polish it up and release it by the end
-  of 2014 but I didn't
-  * I suffered from burnout and took a break
-* So two weeks ago on stage at LNUG I open-sourced it as-is
-* Since then I've been improving the documentation and bug-
-  fixing
-  * This has meant removing some half-finished features
-  * Such as "environments", sadly (but it will be back)
-* Installation process & documentation badly needed
-  improvement
-
-There are still some rough edges that will be smoothed
-out over the coming weeks and months.
-
-Paz is now becoming more polished and is better able to
-showcase the great technology under the hood.
-
------
 
 # WANT TO GET INVOLVED?
 *Please do!*
