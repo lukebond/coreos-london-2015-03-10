@@ -294,6 +294,7 @@ Also:
   Etcd, and HAProxy and Confd is not easy
   * You don't have to know Node.js
 * So if this interests you please start making contributions!
+* The documentation site allows you to contribute changes also.
 * We are also considering hiring someone to work on it
 
 ---
